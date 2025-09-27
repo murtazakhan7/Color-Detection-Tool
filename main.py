@@ -2,7 +2,7 @@ import cv2 as cv
 from PIL import Image
 import numpy as np
 
-def getlimits(color_bgr):
+def getlimits(color_bgr): 
     """
     Convert BGR color to HSV and return upper and lower limits for color detection
     """
